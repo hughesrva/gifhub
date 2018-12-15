@@ -5,8 +5,25 @@ body{
     background-color: #f6f8fa;
 }
 
+h1, h5{
+    text-align: center;
+}
+
 h5{
 	margin: 0px 0px 30px 0px;
+}
+
+p{
+	text-align: center;
+	font-weight: bold;
+}
+
+#buttonRow{
+	margin: 0px 0px 50px 0px;
+}
+
+#contentRow{
+	padding: 15px;
 }
 
 #submitBtn {
@@ -45,9 +62,7 @@ h5{
 }
 
     
-h1, h5{
-    text-align: center;
-}
+
 
 .unit{
 	float: left;
@@ -61,10 +76,12 @@ img{
 }
 
 #question {
-    font-weight: bold;
-    margin: 10px;
+    font-weight: bold;	
 }
 
+#searchColumn{
+	padding: 0px;
+}
 
 
 .queryBtn, .newQueryBtn {
